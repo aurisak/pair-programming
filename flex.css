@@ -1,0 +1,79 @@
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.number {
+    margin: 5px;
+    padding: 20px;
+}
+.container3 * {
+    border: 2px solid green;
+}
+.container4 .three {
+    order: -1;
+    flex-grow: 2;
+}
+
+.container4 .six{
+    flex-grow: 3;
+}
+
+.container1 {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    align-items: stretch;
+}
+.examples section .number:hover { 
+    background-color: yellow;
+}
+.container2 .number:nth-child(even), .container4 .number:nth-child(even) {
+    background: blue;
+}
+
+.container2 .four {
+    align-self: flex-end;
+}
+
+.container2 .six {
+    align-self: flex-start;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.striped .active {
+    background-color: green;
+}
+
+.striped .active + li {
+    background-color: grey;
+}
+
+.striped li + li {
+    padding-top:20px;
+}
+
+li > div {
+    background-color: black;
+}
+ .number.three ~ .number {
+    background-color: purple
+}
+
+.examples::after { 
+    content: " LOL";
+}
+/* menu s robalovacíma items, homepage section 1 */
