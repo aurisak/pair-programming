@@ -1,0 +1,72 @@
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 .smallHeading {
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+}
+div .ideasPart {
+  width: 300px;
+  align-items: center;
+  padding: 20px;
+}
+.ideasPart {
+  text-align:center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ideasPart img {
+  padding: 25px;
+  width: 90px;
+  /* border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  color: rgba(201, 192, 192, 0.842); */
+}
+
+
+.round {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  color: rgba(201, 192, 192, 0.842);
+  width: 150px;
+  height: 150px;
+  text-align:center;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.link {
+  text-align: center;
+  font-size: 28px;
+   
+}
+
+.link a {
+  color: black;
+  font-family: sans-serif;
+}
+
+a:hover {
+    text-decoration-color: rgb(96, 210, 245);
+}
+
+.blueline {
+ background-color: rgb(96, 210, 245);
+ width: 60px;
+ margin-left: 20px;
+ margin-bottom: 8px;
+ display: inline-block;
+ height: 3px;
+
+}

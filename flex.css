@@ -76,4 +76,13 @@ li > div {
 .examples::after { 
     content: " LOL";
 }
+.background  {
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
+}
 /* menu s robalovacíma items, homepage section 1 */

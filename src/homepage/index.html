@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <title>Jana-pair-programming // Homework 4</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="navbar.css" />
+  <link rel="stylesheet" type="text/css" href="firstSection.css" />
+  <link rel="stylesheet" type="text/css" href="secondSection.css" />
+  <link rel="stylesheet" type="text/css" href="formSection.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="navbar.js"></script>
+  <script src="hamburger.js"></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="logo">
+    </div>
+    <div class="menu" id="myMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      <ul id="menu">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#page1">Page1</a>
+        </li>
+        <li>
+          <a href="#page2">Page2</a>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Page3</a>
+          <div class="dropdown-content">
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 1</a>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Page4</a>
+              <div class="dropdown-content">
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 1</a>
+                <li>
+                  <a href="#contact">Contact</a>
+                  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </li>
+      </ul>
+      </div>
+      </div>
+      <div class="background">
+        <div>
+          <h1>Dropdown menu inside<br><div class="blueHeader">a navigation bar</div></h1>
+        </div>
+        <div>
+          <a class="arrow-link" href="#first-section"><img src="images/arrow.png" alt="arrow bottom"></a>
+          <a class="facebook-link" href= www.facebook.com>
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="twitter-link" href= www.twitter.com>
+            <i class="fab fa-twitter"></i> 
+          </a>    
+          <a class="linkedIn-link" href= www.linkedIn.com>
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+       </div>
+      </div>
+
+  <section class="first" id="first-section">   
+    <div>
+      <h2><span class="smallHeading">You have ideas, let`s</span><span class="blueline"></span><br><span class="big">make </span><span class="blueHeader">them real</span></h2>
+    </div>
+    <div class="container">
+        <div class="ideasPart">
+          <div class="round">
+            <img class="centered" src="images/designIcon.png" alt="design icon">
+          </div>
+          <div>
+            <h3>Design</h3>
+            <p>Enchant people.  
+            UX design, research, and testing, and any graphics you need.
+            Learn more</p></div>
+        </div>   
+        <div class="ideasPart"> 
+          <div class="round">
+            <img src="images/marketingIcon.png" alt="marketing icon">
+          </div>
+            <h3>Marketing</h3>
+            <p>Draw people in.  Get a complete digital strategy, with social, PPC, SEO, analytics, and more.
+            Learn more</p>
+          </div>
+        <div class="ideasPart">
+            <div class="round">
+              <img src="images/trainingIcon.png" alt="training icon"> 
+            </div>
+            <div> 
+              <h3>Consulting and training</h3>      
+              <p>Learn to succeed. 
+              DevOps, strategy, training, and more to help you work well.</p>    
+            </div>
+       </div>
+    </div>
+    <div class="link">
+      <span><a href="#">See all we can offer you</a></span>
+    </div>
+  </section>
+
+  <section class="second">
+    <div>
+      <h2><span class="smallHeading">Explore the uniqueness of</span><span class="blueline"></span><br><span class="big">our </span><span class="blueHeader">work</span></h2>
+    </div>
+    <div class="containerTwo">
+      <div class="image">
+        <img src="images/zaplo.png" alt="zaploCode">
+      </div>
+      <div class="zaplo">
+        <h3>Zaplo.dk</h3>
+        <p>With the Zaplo.dk project, we were tasked with 
+          figuring out how to make software releases faster
+          or 4finance, a leading global digital consumer
+          finance company. We not only showed how work could
+          be done more efficiently, but also how to communicate
+          effectively and structure code better, setting an example
+          for their other projects to follow.</p>
+        <a href>View case study</a>
+      </div>  
+    </div>
+    <div class="containerThree">
+        <div class="elevates">
+          <h3>ElevateHD</h3>
+          <p>With the Zaplo.dk project, we were tasked with 
+            figuring out how to make software releases faster
+            or 4finance, a leading global digital consumer
+            finance company. We not only showed how work could
+            be done more efficiently, but also how to communicate
+            effectively and structure code better, setting an example
+            for their other projects to follow.</p>
+          <a href>View case study</a>
+        </div>  
+        <div class="image">
+            <img src="images/elevateHD.png" alt="elevateHD">
+          </div>
+      </div>
+      <div class="containerFour">
+        <div class="image">
+          <img src="images/ppcbee.png" alt="ppcbee">
+        </div>
+        <div class="zaplo">
+          <h3>PPC Bee</h3>
+          <p>PPC Bee is a tool for the automation of pay-per-click
+             product campaigns for online stores. Started outside
+             Blueberry as a set of scripts, we grew it into a capable
+             system with a strong team behind it and a user-centric focus.</p>
+          <a href>View case study</a>
+        </div> 
+
+        <h1>Testování</h1>
+
+  </section>
+  <section class="contact form">
+    <div class="container">
+      <form>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Your email..">  
+        <label for="message"></label>
+        <textarea id="message" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+  
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
