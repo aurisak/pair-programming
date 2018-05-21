@@ -7,6 +7,7 @@ h1 {
     margin-top: 0px;
     padding-top: 200px;
     text-align: center;
+    position: relative;
     color: white;
     font-family: sans-serif;
     font-size: 80px;
@@ -15,7 +16,115 @@ h1 {
 .blueHeader {
     color: rgb(96, 210, 245)
 }
+.arrow-link {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    color: rgba(201, 192, 192, 0.842);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, 0);
+    transition: transform 1s;
+}
+ .arrow-link:hover { 
+    background-color: rgba(255,255,255,0.2);
+    transform: translate(-50%, 8px);
+ }
+.arrow-link:hover img {
+    transform: scale(1.3);
+} 
+.arrow-link img {
+    transform: scale(1);
+    transition: transform 1s;
+}   
+.facebook-link {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgba(201, 192, 192, 0.842);
+    background-color: rgba(201, 192, 192, 0.842);;
+    width:40px;
+    height: 40px;
+    color: rgba(190, 33, 33, 0.842);
+    position: absolute;
+    bottom: 20px;
+    left: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, 0);
+    transition: all 2s;
+}
+ .facebook-link:hover { 
+    background-color: rgba(190, 33, 33, 0.842);
+    color: rgba(201, 192, 192, 0.842);
+    border-color: rgba(190, 33, 33, 0.842);
 
+} 
+.facebook-link img {
+    transform: scale(1);
+    transition: transform 1s;
+} 
+.twitter-link {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    color: rgba(201, 192, 192, 0.842);
+    position: absolute;
+    bottom: 20px;
+    left: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, 0);
+    transition: transform 1s;
+}
+ .twitter-link:hover { 
+    background-color: rgba(255,255,255,0.2);
+    transform: translate(-50%, 8px);
+ }
+.twitter-link:hover img {
+    transform: scale(1.3);
+} 
+.twitter-link img {
+    transform: scale(1);
+    transition: transform 1s;
+} 
+.linkedIn-link {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    color: rgba(201, 192, 192, 0.842);
+    position: absolute;
+    bottom: 20px;
+    left: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, 0);
+    transition: transform 1s;
+}
+ .linkedIn-link:hover { 
+    background-color: rgba(255,255,255,0.2);
+    transform: translate(-50%, 8px);
+ }
+.linkedIn-link:hover img {
+    transform: scale(1.3);
+} 
+.linkedIn-link img {
+    transform: scale(1);
+    transition: transform 1s;
+} 
 .navbar {
     display: inline-flex;
     position: fixed;
@@ -38,8 +147,12 @@ h1 {
 }
 .background {
     background-image: url(images/fotoHomepage.jpg);
+    background-size:cover;
+    background-position: 60% center;
     width: 100%;
     min-height: 100vh;
+    padding-bottom: 80px;
+    position: relative;
 } 
 .logo {
     justify-content: flex-start;
@@ -96,10 +209,76 @@ li a {
      background-color: #ebd5d5;
      color: black;
  }
-
- @media screen and (max-width: 700px) {
-     .menu {
-         display:  none;
-     }
-
+ 
+ .icon {
+     display:none;
  }
+ 
+  
+  @media screen and (max-width: 800px) {
+   
+   .icon {
+       display:block;
+   }
+    #myMenu {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 3;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+ß
+#myMenu span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+
+  
+  z-index: 3;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+
+
+
+#menu
+{
+  position: absolute;
+  width: 80px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 0px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+  color:black;
+}
+
