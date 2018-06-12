@@ -1,0 +1,130 @@
+
+
+.second h2 {
+  text-align: left;
+  margin: 100px;
+}
+
+.second img {
+  margin-left: -300px;
+  margin-top: -120px;
+  padding-right: 30px;
+}
+
+.containerThree img {
+  margin-right: -300px;
+  margin-top: -120px;
+  padding-left: 30px;
+}
+
+.second .containerTwo {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(243, 209, 56);
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+.second .containerThree {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-right: 100px;
+  background-color: rgb(78, 160, 11);
+  width: 100%;
+  padding: 50px;
+  height: 500px; 
+  line-height: 25px; 
+}
+
+.containerThree .elevates {
+  color: white;
+  margin-left: 100px;
+}
+
+.containerThree a {
+  color: white;
+}
+
+.containerThree a {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+}
+
+.containerThree a:hover {
+  background-color: white;
+  color: rgb(78, 160, 11);
+}
+
+.containerTwo a {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+
+.second h3{
+  font-size: 30px;
+}
+.containerTwo a:hover {
+  background-color: black;
+  color: rgb(243, 209, 56);
+}
+
+.second p {
+  padding-bottom: 20px;
+  word-wrap: break-word;
+  width: 60%;
+}
+
+.second .containerFour {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(245, 227, 148);
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+.containerFour a {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+
+.containerFour a:hover {
+  background-color: black;
+  color: rgb(243, 209, 56);
+}
+
+.containerFour img {
+  margin-left: 10px;
+  margin-top: -120px;
+  padding-right: 30px;
+  height: 500px;
+  width: 497px;
+  height: 646px;
+}
+
+.zaplo {
+  padding-left: 50px;
+}
+
+/* - position: absolute, relative, fixed
+- z-index
+- kotva
+- zarovnání nadpisu na střed (sekce intro)
+- kódovačka */
